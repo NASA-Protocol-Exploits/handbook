@@ -6,7 +6,7 @@ questions.
 
 ## Contributing
 
-Please see the [contribution guidelines](NASAProtocolExploits/documentation/CONTRIBUTING.md).
+Please see the [contribution guidelines](CONTRIBUTING.md).
 
 ## Sections
 - Company
