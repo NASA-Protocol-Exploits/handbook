@@ -13,11 +13,9 @@ Please see the [contribution guidelines](CONTRIBUTING.md).
  - Mission Statement
  - Roles
  - Structure
-
- - Learning & Development
-  - Training
+- Learning & Development
+  - [Training](docs/learning/training/README.md)
   - Useful Resources
-  
 - Tools
   - CORE 
   - Pyion   
