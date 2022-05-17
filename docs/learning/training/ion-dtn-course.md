@@ -1,6 +1,9 @@
 # NASA Interplanetary Overlay Network Course
 The NASA Interplanataty Overlay Network (ION) is an implementation of Delay/Disruption Tolerant Networking (DTN). Something that up now is unlikely you have encountered during your degree. Employees eager to gain an advatage in learning about ION and DTN architecture, how the ION-DTN virtual environment works, and how to edit and create scenarios are highly recommended to undertake this 4 part training module in their own time.
 
+## Requirements
+To simplify the setup and onboarding process, please use one of the supplied ION-DTN virtual environments. These will include all required training content alongside any additional material previous cohorts found helpful. All this information can be found under the “Setting up my virtual environment” of the handbook. 
+
 ## Training Conent
 
 ##### **1.1 Lecture: Introduction to DTN**
