@@ -16,7 +16,7 @@ Please see the [contribution guidelines](CONTRIBUTING.md).
   - Structure
 - Learning & Development
   - [Training](docs/learning/training/README.md)
-  - Useful Resources
+  - [Useful Resources](docs/learning/useful-resources/README.md)
 - Tools
   - CORE 
   - Pyion   
