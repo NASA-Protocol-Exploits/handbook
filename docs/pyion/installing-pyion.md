@@ -31,7 +31,7 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii.** `aclocal`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii.** `autoconf`	  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv.** `automake`  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**v.** `./configure CFLAGS='-O0 -ggdb3' CPPFLAGS='-O0 -ggdb3' CXXFLAGS='-O0 -ggdb3'`  		
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**v.** `./configure CFLAGS='-O0 -ggdb3' CPPFLAGS='-O0 -ggdb3' CXXFLAGS='-O0 -ggdb3'`    		
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vi.** `make`	 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vii.** `sudo make install`	  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vii.** `sudo Idconfig`	 
@@ -50,6 +50,7 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 **3**. Install some more python dependencies:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `sudo apt-get install python3-setuptools`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.** Run `pip install pathlib`  
+
 **4.**	Set the `ION_HOME` environment variable to the location of the ION source code we downloaded above. For me this is found at `/home/core/ion-open-source-3.6.2`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `export ION_HOME=/home/core/ion-open-source-3.6.2`   
 
