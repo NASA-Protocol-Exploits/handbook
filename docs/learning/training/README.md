@@ -6,5 +6,5 @@ A list of training can be seen below:
 
 ## Training
   - [Introduction to ION-DTN Course](ion-dtn-course.md)
-  - [How LTP/BP works in CORE](how-bp-and-ltp-work.md)
+  - [How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)
   - [Markdown Guide](markdown-guide.md)
