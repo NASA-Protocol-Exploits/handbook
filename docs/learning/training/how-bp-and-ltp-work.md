@@ -2,7 +2,7 @@
 
 ## How BP/LTP works in ION-DTN
 ### Introduction
-After completing the [NASA ION-DTN Course](/TODO), you should have some understanding of the Interplanetary Overlay Networks (ION) with Delay/Disruption Tolerant Networking (DTN) architecture and why it is crucial for space communication.
+After completing the [NASA ION-DTN Course](ion-dtn-course.md), you should have some understanding of the Interplanetary Overlay Networks (ION) with Delay/Disruption Tolerant Networking (DTN) architecture and why it is crucial for space communication.
 
 This document intends to explain how the C implementation of the Bundle Protocol (BP) and Licklider Transmission Protocol (LTP) function within the ION-DTN virtual machine environment. These two protocols have been highlighted below in _figure 1_ via the red box to assist users in understanding where they reside in the stack.
 
