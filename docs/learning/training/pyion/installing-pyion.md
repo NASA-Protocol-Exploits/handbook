@@ -8,7 +8,7 @@ Reference steps here: [https://pyion.readthedocs.io/en/latest/install.html](http
 ## Introduction
 Firstly, we need to decide what version of ION Open Source we will be using. The NASA Dev Kit comes with version v3.6.2, and it is essential to match your ION version to your PyION version. Skip this step if you are not changing ION Open Source Version. You will still need a copy of the [ION source code](https://sourceforge.net/projects/ion-dtn/files/), however 
 
-***Note:** Skip to here if you already have the ION source code downloaded and your chosen version installed.*
+***Note:** Skip to [here](https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/learning/training/pyion/installing-pyion.md#installing-pyion) if you already have the ION source code downloaded and your chosen version installed.*
 
 ## Updating ION
 <details>
