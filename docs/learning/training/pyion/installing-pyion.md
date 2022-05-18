@@ -24,7 +24,7 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Extract the contents with `tar –xvf automake-1.16.tar.xz`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**d.** Run `./configure`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `make`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `sudo make install`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**f.** Run `sudo make install`  
 
  **3.** Next, `cd` to the download location for ION Open Source
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Extract the contents with `tar –xvzf [filename]`  
@@ -36,7 +36,7 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**v.** `./configure CFLAGS='-O0 -ggdb3' CPPFLAGS='-O0 -ggdb3' CXXFLAGS='-O0 -ggdb3'`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vi.** `make`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vii.** `sudo make install`   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vii.** `sudo Idconfig`  	 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**viii.** `sudo Idconfig`  	 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Congratulations you've updated your version of ION.  
 </details>
 
