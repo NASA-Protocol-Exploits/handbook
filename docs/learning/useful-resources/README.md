@@ -5,5 +5,5 @@ The NASA Protocols Exploit team is a strong beleiver in providing employees with
 A list of useful resources can be seen below. 👇  
 
 ## Useful Resources
+  - [CCSDS Resources](ccsds-resources.md)
   - [Glossary of Terms](glossary-of-terms.md)
-  - [item2](item2.md)
