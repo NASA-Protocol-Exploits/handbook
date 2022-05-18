@@ -11,9 +11,9 @@ Before contributing to the GitHub, please be sure to checkout the [contribution 
 
 ## :point_down: Handbook Sections
 - <b>Company</b>
-  - [Mission Statement](docs/company/training/mission-statement.md)
-  - [Roles](docs/company/training/roles.md)
-  - [Structure](docs/company/training/structure.md)
+  - [Mission Statement](docs/company/mission-statement.md)
+  - [Roles](docs/company/roles.md)
+  - [Structure](docs/company/structure.md)
 - <b>Learning & Development</b>
   - [Training](docs/learning/training/README.md)
   - [Useful Resources](docs/learning/useful-resources/README.md)
