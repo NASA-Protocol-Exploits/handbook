@@ -11,7 +11,7 @@ A list of training can be seen below. :point_down:
   - <b>Step #4  - </b>  [How to Create & Modify Scenarios](how-to-create-and-modify-scenarios.md) 
   
 ## Learning The Tools
-  - [Everything Pyion](pyion/README.md)
+  - [Everything PyION](pyion/README.md)
   - [Everything Scapy](scapy/README.md)
   
 ## Additional Training
