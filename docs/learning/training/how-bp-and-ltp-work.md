@@ -12,7 +12,7 @@ This document intends to explain how the C implementation of the Bundle Protocol
 
 
 ### Understanding Software Elements and their responsibilities
-At this point it is also important to understand the functional dependencies among the various ION software elements and their respective responsibilities which are as follows:
+At this point it is also good to understand the functional dependencies among the various ION software elements and their respective responsibilities which are as follows:
 
 <p align="center">
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/how-bp-and-ltp-work-doc/software-element-dependencies.PNG?raw=true"/>
