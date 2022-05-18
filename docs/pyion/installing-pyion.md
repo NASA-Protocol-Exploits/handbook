@@ -12,7 +12,7 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 
 ## Updating ION
 <details>
-<summary>"I updating my ION version and I  am aware it may be lacking features, where should I begin?"</summary>
+<summary>I updating my ION version and I  am aware it may be lacking features, where should I begin?</summary>
 <br>
  **1**. Download the correct version of ION from [https://sourceforge.net/projects/ion-dtn/](https://sourceforge.net/projects/ion-dtn/)
  
