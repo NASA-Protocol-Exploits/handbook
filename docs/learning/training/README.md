@@ -8,7 +8,7 @@ A list of training can be seen below. :point_down:
   - <b>Step #1  - </b>  [Setting up my VM](setting-up-my-vm.md)
   - <b>Step #2  - </b>  [Introduction to ION-DTN Course](ion-dtn-course.md)
   - <b>Step #3  - </b>  [How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)  
-  - <b>Step #4  - </b>  [How to create & modify scenarios](how-to-create-and-modify-scenarios.md) 
+  - <b>Step #4  - </b>  [How to Create & Modify Scenarios](how-to-create-and-modify-scenarios.md) 
   
 ## Additional Training
   - [The Ultimate Markdown Guide](markdown-guide.md)
