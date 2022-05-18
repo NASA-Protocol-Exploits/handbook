@@ -24,9 +24,9 @@ At this point it is also important to understand the functional dependencies amo
 | ZCO              | Zero-copy objects capability: Minimize data copying up and down the stack.                                      |
 | SDR              | Spacecraft Data Recorder: Persistent object database in shared memory, using PSM and SmList.                    |
 | SmList           | Linked Lists in shared memory using PSM.                                                                        |
-| SmRbt            | Red-Black Trees in shared memory using PSM                                                                      |
+| SmRbt            | [Red-Black Trees](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/) in shared memory using PSM                                                                      |
 | PSM              | Personal Space Management: Memory management within a pre-allocated memory partition.                           |
-| Platform         | Common access to operating system; Shared memory, system time and Inter Process Communication (IPC) mechanisms. |
+| Platform         | Common access to operating system; Shared memory, system time and [IPC mechanisms](https://www.geeksforgeeks.org/inter-process-communication-ipc/#:~:text=Inter%2Dprocess%20communication%20(IPC),Shared%20Memory). |
 | Operating System | POSIX thread spawn/destroy, file systems and time.                                                              |
 
 ### How BP/LTP Functions in ION
