@@ -2,12 +2,7 @@
 
 ## Using PyION within a virtual container
 
-***Note:** If you want to use it within a container, there’s some quirks with overlapping Python2 and Python3. You’ll need to run `unset PYTHONPATH` in every shell you want to run python scripts in. There’s probably a more innovative way of doing this. However, this is the current workaround, as displayed below in _figure 1_.*
-
-<figure align="center" >
-  <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/executing-unset-pythonpath.PNG?raw=true"/>
-  <figcaption><i>Figure 1: A screenshot of the `unset PYTHONPATH` being executed on node three inside the virtual enviroment.</i></figcaption>
-</figure>
+***Note:** If you want to use it within a container, there’s some quirks with overlapping Python2 and Python3. You’ll need to run `unset PYTHONPATH` in every shell you want to run python scripts in. There’s probably a more innovative way of doing this. However, this is the current workaround, as displayed below in _figure 2_.*
 
 *Also, remember that containers die every time you stop them. So write the python script on your host, copy them across to the container, and run them with `python3 script.py.`*
 
@@ -20,7 +15,7 @@ Launch the core emulator using the `core-gui` command from the terminal, and loa
 
 <figure align="center">
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/load-base-image-transfer-scenario.PNG?raw=true"/>
-  <figcaption><i>Figure 2: A screenshot of the 'ImageTransfer.imn' sceanrio file being loaded into the CORE enviroment</i></figcaption>
+  <figcaption><i>Figure 1: A screenshot of the 'ImageTransfer.imn' sceanrio file being loaded into the CORE enviroment</i></figcaption>
 </figure>
 
 **Step Two**
@@ -30,7 +25,7 @@ Next, run the `unset PYTHONPATH` on the node 3 and node 4 shells to avoid the ov
 
 <figure align="center">
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/spawn-shells-for-node3-and-node4.PNG?raw=true"/>
-  <figcaption><i>Figure 3: A screenshot of the node 3 and node 4 shells open on the virtual machine</i></figcaption>
+  <figcaption><i>Figure 2: A screenshot of the node 3 and node 4 shells open on the virtual machine</i></figcaption>
 </figure>
 
 **Step Three**
@@ -40,5 +35,5 @@ Next, run the `vim sender.py` on node 3 and `vim receiver.py` on node 4 top shel
 
 <figure align="center">
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/spawn-shells-for-node3-and-node4-again.PNG?raw=true"/>
-  <figcaption><i>Figure 1: A screenshot of all four shell windows open on the virtual machine</i></figcaption>
+  <figcaption><i>Figure 3: A screenshot of all four shell windows open on the virtual machine</i></figcaption>
 </figure>
