@@ -42,13 +42,16 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 **1**. Download the correct version of PyION from [https://github.com/msancheznet/pyion]  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Alternatively, use `git clone https://github.com/msancheznet/pyion.git`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.** `cd` to downloaded dir  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Checkout to the correct branch. You can look at branches with `git branch -a`. I’m choosing v3.6.2 in this case, but match your ION version.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Checkout to the correct branch. You can look at branches with `git branch -a`. I’m choosing v3.6.2 in this case.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**d.** Run `git checkout v3.6.2`  
+
 **2**. Install the python dev tools with `sudo apt-get install autotools-dev automake python3-dev`  
+
 **3**. Install some more python dependencies:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `sudo apt-get install python3-setuptools`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.** Run `pip install pathlib`  
 **4.**	Set the `ION_HOME` environment variable to the location of the ION source code we downloaded above. For me this is found at `/home/core/ion-open-source-3.6.2`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `export ION_HOME=/home/core/ion-open-source-3.6.2`   
+
 **5.**	Finally it is read to install:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `sudo -E python3 setup.py install`   
