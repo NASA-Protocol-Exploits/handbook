@@ -5,6 +5,10 @@ As part of our value of being transparent, the handbook is open to the world and
 Please create a pull request to suggest improvements or add clarifications. Please use issues to ask 
 questions.
 
+## :pencil: Contributing
+Before contributing to the GitHub, please be sure to checkout the [contribution guidelines](CONTRIBUTING.md).
+
+
 ## :point_down: Handbook Sections
 - <b>Company</b>
   - [Mission Statement](docs/company/training/mission-statement.md)
@@ -16,7 +20,3 @@ questions.
 - <b>Tools</b>
   - CORE 
   - Pyion   
-
-
-## :pencil: Contributing
-Before contributing to the GitHub, please be sure to checkout the [contribution guidelines](CONTRIBUTING.md).
