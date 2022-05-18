@@ -6,14 +6,14 @@ Please create a pull request to suggest improvements or add clarifications. Plea
 questions.
 
 ## :point_down: Handbook Sections
-- Company
+- <b>Company</b>
   - [Mission Statement](docs/company/training/mission-statement.md)
   - [Roles](docs/company/training/roles.md)
   - [Structure](docs/company/training/structure.md)
-- Learning & Development
+- <b>Learning & Development</b>
   - [Training](docs/learning/training/README.md)
   - [Useful Resources](docs/learning/useful-resources/README.md)
-- Tools
+- <b>Tools</b>
   - CORE 
   - Pyion   
 
