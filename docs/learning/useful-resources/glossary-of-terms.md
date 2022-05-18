@@ -1,5 +1,5 @@
-## Contribution
-Suppose you would like to add to the companys Glossary of Terms with the intention of helping improve our current documentation. In that case, we encourage all members to do this by sending a [pull request](https://github.com/NASA-Protocol-Exploits/handbook/pulls)
+# Contribution
+Suppose you would like to add to the companys Glossary of Terms to help improve our current documentation. In that case, we encourage all members to do this by sending a [pull request](https://github.com/NASA-Protocol-Exploits/handbook/pulls). If you need help doing this, please reach out to a senior employee or refer to the contribution guide.
 
 # Glossary of Terms
 **AMS (Asynchronous Message Service) –** AMS is an Asynchronous Message Service (On the application layer) for use in space, e.g., between Earth and spacecraft in Earth orbit or between Earth and spacecraft on interplanetary missions.
