@@ -3,5 +3,5 @@ Suppose you would like to add to the company GitHub with the intention of helpin
 
 Thank you for expressing interest in the project and wanting to help! We want to make this a welcoming environment for everyone interested in contributing.
 
-# Standard & Expectations
+### Standard & Expectations
 to be compelted. 
