@@ -4,7 +4,8 @@
 
 ***Note:** If you want to use it within a container, there’s some quirks with overlapping Python2 and Python3. You’ll need to run `unset PYTHONPATH` in every shell you want to run python scripts in. There’s probably a more innovative way of doing this. However, this is the current workaround, as displayed below in _figure 1_.*
 
-<figure align="center" img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/executing-unset-pythonpath.PNG?raw=true"/>
+<figure align="center" >
+  <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/executing-unset-pythonpath.PNG?raw=true"/>
   <figcaption><i>Figure 1: A screenshot of the `unset PYTHONPATH` being executed on node three inside the virtual enviroment.</i></figcaption>
 </figure>
 
