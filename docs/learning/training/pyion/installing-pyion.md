@@ -58,3 +58,5 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 
 **5.**	Finally it is ready to install:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `sudo -E python3 setup.py install`   
+
+**6.**	You are now ready to [Run your first script](running-pyion.md)
