@@ -17,12 +17,12 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
  **1**. Download the correct version of ION from [https://sourceforge.net/projects/ion-dtn/](https://sourceforge.net/projects/ion-dtn/)
  
  **2.** Download the latest version of [automake](https://www.gnu.org/software/automake/#downloading) v1.16 at this time. The version on the apt repos is unfortunately way out of date. Thanks, Canonical.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Download to your ubuntu virtual machine.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.** `cd` to extracted dir
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Extract the contents with `tar –xvf automake-1.16.tar.xz`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**d.** Run `./configure`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `make`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `sudo make install`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Download to your ubuntu virtual machine.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.** `cd` to extracted dir  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Extract the contents with `tar –xvf automake-1.16.tar.xz`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**d.** Run `./configure`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `make`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `sudo make install`  
 
  **3.** Next, `cd` to the download location for ION Open Source
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Extract the contents with `tar –xvzf [filename]`
