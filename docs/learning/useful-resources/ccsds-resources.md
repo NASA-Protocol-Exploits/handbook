@@ -1,4 +1,4 @@
-# 🌐 The Consultative Committee for Space Data Systems (CCSDS) Resources
+# 🌐 The Consultative Committee for Space Data Systems (CCSDS)
 
 The **Consultative Committee for Space Data Systems** (CCSDS) is a multi-national forum to develop communications & data systems standards for spaceflight. Regarding attaining a more robust technical understanding of space protocols, this is the start!
 
