@@ -11,9 +11,9 @@ Please see the [contribution guidelines](CONTRIBUTING.md).
 
 ## Sections
 - Company
-  - Mission Statement
-  - Roles
-  - Structure
+  - [Mission Statement](docs/company/training/mission-statement.md)
+  - [Roles](docs/company/training/roles.md)
+  - [Structure](docs/company/training/structure.md)
 - Learning & Development
   - [Training](docs/learning/training/README.md)
   - [Useful Resources](docs/learning/useful-resources/README.md)
