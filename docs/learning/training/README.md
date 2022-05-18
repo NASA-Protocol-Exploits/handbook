@@ -8,5 +8,5 @@ A list of training can be seen below. :point_down:
   - [Introduction to ION-DTN Course](ion-dtn-course.md)
   - [How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)  
   - 
-## Training
+## Additional Training
   - [The Ultimate Markdown Guide](markdown-guide.md)
