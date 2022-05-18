@@ -4,6 +4,6 @@ The NASA Protocols Exploit team is a strong beleiver in providing employees with
 
 A list of useful resources can be seen below. 👇  
 
-## Training
-  - [item1](item1.md)
+## Useful Resources
+  - [Glossary of Terms](glossary-of-terms.md)
   - [item2](item2.md)
