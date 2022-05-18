@@ -12,8 +12,8 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 
 ## Updating ION
 <details>
-<summary>I updating my ION version and I  am aware it may be lacking features, where should I begin?</summary>
-<br>
+<summary>I updating my ION version and I  am aware it may be lacking features, where should I begin?</summary>  
+
  **1**. Download the correct version of ION from [https://sourceforge.net/projects/ion-dtn/](https://sourceforge.net/projects/ion-dtn/)
  
  **2.** Download the latest version of [automake](https://www.gnu.org/software/automake/#downloading) v1.16 at this time. The version on the apt repos is unfortunately way out of date. Thanks, Canonical.
