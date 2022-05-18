@@ -6,13 +6,15 @@ This guide will show installation on the NASA ION Dev Kit, but the same steps ca
 Reference steps here: [https://pyion.readthedocs.io/en/latest/install.html](https://pyion.readthedocs.io/en/latest/install.html)
 
 ## Introduction
-Firstly, we need to decide what version of ION Open Source we will be using. The NASA Dev Kit comes with version v3.6.2, and it is essential to match your ION version to your PyION version. Skip this step if you are not changing ION Open Source Version. You will still need a copy of the ION source code, however
+Firstly, we need to decide what version of ION Open Source we will be using. The NASA Dev Kit comes with version v3.6.2, and it is essential to match your ION version to your PyION version. Skip this step if you are not changing ION Open Source Version. You will still need a copy of the [ION source code](https://sourceforge.net/projects/ion-dtn/files/), however 
 
-***Note:** Skip to here if you already have the ION source code downloaded and your chosen version installed.*
+***Note:** Skip to [here](https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/learning/training/pyion/installing-pyion.md#installing-pyion) if you already have the ION source code downloaded and your chosen version installed.*
 
 ## Updating ION
 <details>
-<summary>I updating my ION version and I  am aware it may be lacking features, where should I begin?</summary>  
+<summary>I'm updating my ION version and I'm aware it may be incomplete and/or lacking features, where should I begin?</summary>  
+ <br>  
+ 
 
  **1**. Download the correct version of ION from [https://sourceforge.net/projects/ion-dtn/](https://sourceforge.net/projects/ion-dtn/)
  
@@ -22,19 +24,19 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Extract the contents with `tar –xvf automake-1.16.tar.xz`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**d.** Run `./configure`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `make`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.** Run `sudo make install`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**f.** Run `sudo make install`  
 
- **3.** Next, `cd` to the download location for ION Open Source
+ **3.** Next, `cd` to the download location for ION Open Source  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Extract the contents with `tar –xvzf [filename]`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**b.** Run the following:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i.** `autoheader`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii.** `aclocal`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i.**   `autoheader`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii.**  `aclocal`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii.** `autoconf`	  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv.** `automake`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**v.** `./configure CFLAGS='-O0 -ggdb3' CPPFLAGS='-O0 -ggdb3' CXXFLAGS='-O0 -ggdb3'`    		
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vi.** `make`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv.**  `automake`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**v.**   `./configure CFLAGS='-O0 -ggdb3' CPPFLAGS='-O0 -ggdb3' CXXFLAGS='-O0 -ggdb3'`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vi.**  `make`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vii.** `sudo make install`   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**vii.** `sudo Idconfig`  	 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**viii.**`sudo Idconfig`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**c.** Congratulations you've updated your version of ION.  
 </details>
 

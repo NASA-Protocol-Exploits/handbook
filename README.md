@@ -17,6 +17,4 @@ Before contributing to the GitHub, please be sure to checkout the [contribution 
 - <b>Learning & Development</b>
   - [Training](docs/learning/training/README.md)
   - [Useful Resources](docs/learning/useful-resources/README.md)
-- <b>Tools</b>
-  - CORE 
-  - Pyion   
+
