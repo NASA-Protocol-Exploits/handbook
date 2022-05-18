@@ -16,6 +16,7 @@ At this point it is also good to understand the functional dependencies among th
 
 <p align="center">
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/how-bp-and-ltp-work-doc/software-element-dependencies.PNG?raw=true"/>
+</p>
 
 |   **Component**  |                                  **Role / Responsibilities**                                                    |
 |:----------------:|:---------------------------------------------------------------------------------------------------------------:|
@@ -27,7 +28,8 @@ At this point it is also good to understand the functional dependencies among th
 | PSM              | Personal Space Management: Memory management within a pre-allocated memory partition.                           |
 | Platform         | Common access to operating system; Shared memory, system time and [IPC mechanisms](https://www.geeksforgeeks.org/inter-process-communication-ipc/#:~:text=Inter%2Dprocess%20communication%20(IPC),Shared%20Memory). |
 | Operating System | [POSIX](https://en.wikipedia.org/wiki/POSIX) thread spawn/destroy, file systems and time.                                                              |
-</p>
+
+From 
 
 ### How BP/LTP Functions in ION
 Regardless of the complexitities associated with the ION environment. The entire system of the BP utilizing the LTP convergence layer can be depict in one single diagram as seen below in _Figure 2_. 
