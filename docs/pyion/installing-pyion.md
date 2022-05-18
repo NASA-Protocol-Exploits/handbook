@@ -54,5 +54,5 @@ Firstly, we need to decide what version of ION Open Source we will be using. The
 **4.**	Set the `ION_HOME` environment variable to the location of the ION source code we downloaded above. For me this is found at `/home/core/ion-open-source-3.6.2`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `export ION_HOME=/home/core/ion-open-source-3.6.2`   
 
-**5.**	Finally it is read to install:  
+**5.**	Finally it is ready to install:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**a.** Run `sudo -E python3 setup.py install`   
