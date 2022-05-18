@@ -5,10 +5,10 @@ The NASA Protocols Exploit team is a strong beleiver in providing employees with
 A list of training can be seen below. :point_down:
 
 ## Learning The Enviroment
-  - <b>Step #1 - </b>[Setting up my VM](setting-up-my-vm.md)
-  - <b>Step #2 - </b>[Introduction to ION-DTN Course](ion-dtn-course.md)
-  - <b>Step #3 - </b>[How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)  
-  - <b>Step #4 - </b>[How to create & modify scenarios](how-bp-and-ltp-work.md) 
+  - <b>Step #1  - </b>[Setting up my VM](setting-up-my-vm.md)
+  - <b>Step #2  - </b>[Introduction to ION-DTN Course](ion-dtn-course.md)
+  - <b>Step #3  - </b>[How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)  
+  - <b>Step #4  - </b>[How to create & modify scenarios](how-bp-and-ltp-work.md) 
   
 ## Additional Training
   - [The Ultimate Markdown Guide](markdown-guide.md)
