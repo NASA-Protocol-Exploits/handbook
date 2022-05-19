@@ -81,7 +81,7 @@ Then, be sure to write the file with by `esc` then `:w` then `enter` to write it
 </p>
 
 ## Step Four
-Now, execute the python scripts from the bottom termianls begin with the receiver on node 4 run by running `python3 receiver.py' followed by 'python3 sender.py' on node 3.
+Now, execute the python scripts from the bottom termianls begin with the receiver on node 4 run by running 'python3 receiver.py' followed by 'python3 sender.py' on node 3.
 <p align="center">
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/running-pyion-doc/execute-script-on-node4-then-node3.PNG?raw=true"/>
 </p>
