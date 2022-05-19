@@ -11,11 +11,11 @@ A list of training can be seen below. :point_down:
   - <b>Step #4  - </b>  [How to Create & Modify Scenarios](how-to-create-and-modify-scenarios.md) 
   
 ## Learning The Tools
-- Sending/Receiving Packets
+- **Sending/Receiving Packets**
   - [Everything PyION](pyion/README.md)
   - [Everything Scapy](scapy/README.md)
-- Code analysis tools
-  - [How to use GDB](gdb/README.md}
+- **Code analysis and debugging**
+  - [How to use GDB](gdb/README.md)
   - [How to use LINT](lint/README.md)
 
 ## Additional Training
