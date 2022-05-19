@@ -1,5 +1,5 @@
 # :computer:  GDB: The GNU Project Debugger
-GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed.
+GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes - or what another program was doing at the moment it crashed.
 
 GDB can do four main kinds of things (plus other things in support of these) to help you catch bugs in the act:
   - Start your program, specifying anything that might affect its behavior.
