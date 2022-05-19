@@ -6,4 +6,3 @@ Below you will find a collection of resources that will assist you throughout th
 ## PyION Guides
   - [Installing PyION](installing-pyion.md)
   - [Running PyION](running-pyion.md)
-  - [Adding/Using PyION Scripts](adding-and-using-pyion-scripts.md)
