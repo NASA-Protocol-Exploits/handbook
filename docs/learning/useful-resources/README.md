@@ -7,3 +7,4 @@ A list of useful resources can be seen below. 👇
 ## Useful Resources
   - [CCSDS Resources](ccsds-resources.md)
   - [Glossary of Terms](glossary-of-terms.md)
+  - [ION Command Cheat Sheet](ion-commands.md)
