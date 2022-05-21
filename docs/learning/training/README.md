@@ -5,18 +5,18 @@ The NASA Protocols Exploit team is a strong beleiver in providing employees with
 A list of training can be seen below. :point_down:
 
 ## Learning The Enviroment
-  - <b>Step #1  - </b>  [Setting up my VM](setting-up-my-vm.md)
-  - <b>Step #2  - </b>  [Introduction to ION-DTN Course](ion-dtn-course.md)
-  - <b>Step #3  - </b>  [How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)  
-  - <b>Step #4  - </b>  [How to Create & Modify Scenarios](how-to-create-and-modify-scenarios.md) 
+  - <b>Step #1  - </b>  [Setting up my VM](setting-up-my-vm.md) -- Under work 
+  - <b>Step #2  - </b>  [Introduction to ION-DTN Course](ion-dtn-course.md) 
+  - <b>Step #3  - </b>  [How BP/LTP works in ION-DTN](how-bp-and-ltp-work.md)  -- Under work 
+  - <b>Step #4  - </b>  [How to Create & Modify Scenarios](how-to-create-and-modify-scenarios.md) -- Under work 
   
 ## Learning The Tools
 - **Sending/Receiving Packets**
   - [Everything PyION](pyion/README.md)
   - [Everything Scapy](scapy/README.md)
 - **Code analysis and debugging**
-  - [How to use GDB](gdb/README.md)
-  - [How to use LINT](lint/README.md)
+  - [How to use GDB](gdb/README.md) -- Under work 
+  - [How to use LINT](lint/README.md) -- Under work 
 
 ## Additional Training
   - [The Ultimate Markdown Guide](markdown-guide.md)
