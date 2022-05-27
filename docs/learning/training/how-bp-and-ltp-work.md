@@ -1,5 +1,4 @@
 
-
 ## How BP/LTP works in ION-DTN
 ### Introduction
 After completing the [NASA ION-DTN Course](ion-dtn-course.md), you should have some understanding of the Interplanetary Overlay Networks (ION) with Delay/Disruption Tolerant Networking (DTN) architecture and why it is crucial for space communication.
@@ -21,15 +20,16 @@ At this point it is also good to understand the functional dependencies among th
 |   **Component**  |                                  **Role / Responsibilities**                                                    |
 |:----------------:|:---------------------------------------------------------------------------------------------------------------:|
 | BP/LTP Protocols | Bundle Protocol and Licklider Transmission Protocol libraries and daemons.                                      |
-| ZCO              | Zero-copy objects capability: Minimize data copying up and down the stack.                                      |
-| SDR              | Spacecraft Data Recorder: Persistent object database in shared memory, using PSM and SmList.                    |
-| SmList           | Linked Lists in shared memory using PSM.                                                                        |
-| SmRbt            | [Red-Black Trees](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/) in shared memory using PSM                                                                      |
-| PSM              | Personal Space Management: Memory management within a pre-allocated memory partition.                           |
-| Platform         | Common access to operating system; Shared memory, system time and [IPC mechanisms](https://www.geeksforgeeks.org/inter-process-communication-ipc/#:~:text=Inter%2Dprocess%20communication%20(IPC),Shared%20Memory). |
-| Operating System | [POSIX](https://en.wikipedia.org/wiki/POSIX) thread spawn/destroy, file systems and time.                                                              |
+| ZCO              | Zero-copy objects capability: Minimize data copying up and down the stack. ION’s zco (zero-copy objects) system leverages the SDR system’s storage flexibility to enable user application data to be encapsulated in any number of layers of protocol without copying the successively augmented protocol data unit from one layer to the next. It also implements a reference counting system that enables protocol data to be processed safely by multiple software elements concurrently – e.g., a bundle may be both delivered to a local endpoint and, at the same time, queued for forwarding to another node – without requiring that distinct copies of the data be provided to each element                                     |
+| SDR              | SDR is a system for managing non-volatile storage, built on exactly the same model as PSM. Put another way, SDR is a small and simple “persistent object” system or “object database” management system. It enables straightforward management of linked lists (and other data structures of arbitrary complexity) in non-volatile storage, notionally within a single file whose size is pre-defined and fixed. SDR includes a transaction mechanism that protects database integrity by ensuring that the failure of any database operation will cause all other operations undertaken within the same transaction to be backed out. The intent of the system is to assure retention of coherent protocol engine state even in the event of an unplanned flight computer reboot in the midst of communication activity.                    |
+| SmList           | Smlist is another doubly-linked list management service. It differs from lyst in that the lists it manages reside in shared (rather than private) DRAM, so operations on them must be semaphore-protected to prevent race conditions.                                                                        |
+| SmRbt            | [Red-Black Trees](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/) in shared memory using PSM. The SmRbt service provides mechanisms for populating and navigating “red/black trees” (RBTs) residing in shared DRAM. RBTs offer an alternative to linked lists: like linked lists they can be navigated as queues, but locating a single element of an RBT by its “key” value can be much quicker than the equivalent search through an ordered linked list.                                                                      |
+| PSM              | Although sound flight software design may prohibit the uncontrolled dynamic management of system memory, private management of assigned, fixed blocks of system memory is standard practice. Often that private management amounts to merely controlling the reuse of fixed-size rows in static tables, but such techniques can be awkward and may not make the most efficient use of available memory. The ICI package provides an alternative, called PSM, which performs high-speed dynamic allocation and recovery of variable-size memory objects within an assigned memory block of fixed size. A given PSM-managed memory block may be either private or shared memory                           |
+| Platform         | The platform system contains operating-system-sensitive code that enables ICI to present a single, consistent programming interface to those common operating system services that multiple ION modules utilize. For example, the platform system implements a standard semaphore abstraction that may invisibly be mapped to underlying POSIX semaphores, SVR4 IPC semaphores, Windows Events, or VxWorks semaphores, depending on which operating system the package is compiled for. The platform system also implements a standard shared-memory abstraction, enabling software running on operating systems both with and without memory protection to participate readily in ION’s shared-memory-based computing environment and [IPC mechanisms](https://www.geeksforgeeks.org/inter-process-communication-ipc/#:~:text=Inter%2Dprocess%20communication%20(IPC),Shared%20Memory). |
+| Operating System | [POSIX](https://en.wikipedia.org/wiki/POSIX) thread spawn/destroy, file systems and time.                                                              
+| ICI Package		| Includes a security policy component that supports the implementation of security mechanisms at multiple layers of the protocol stack
 
-From 
+From diagram we can see the main functional dependencies of the ION software elements. Here, the BP and LTP start by invoking functions provided by the operating system along with sdr, zco, psm, and platform elements of the ici package. Then as seen on the diagram zco itself invokes sdr, psm and platform function and it keeps going on until the last functional dependency is reached starting from operating system.  
 
 ### How BP/LTP Functions in ION
 Regardless of the complexitities associated with the ION environment. The entire system of the BP utilizing the LTP convergence layer can be depict in one single diagram as seen below in _Figure 2_. 
@@ -37,6 +37,7 @@ Regardless of the complexitities associated with the ION environment. The entire
   <img src="https://github.com/NASA-Protocol-Exploits/handbook/blob/main/docs/image-resources/how-bp-and-ltp-work-doc/how-bp-and-ltp-work-overall.PNG?raw=true"/>
 </p>
 
+Here the small circles represent the semaphores with arrows indicating their both inwards and outwards function. The BP and LTP databases along with control and data flow is discussed further in the following sections. 
 ### 1.1.0	Databases
 In this section we discuss architecture of both Bundle Protocol (BP) and Licklider Transmission Protocol (LTP) Database. 
 #### BP Database
