@@ -102,9 +102,9 @@ Enter the following commands 1 line at a time:
 
  8. Check the ION version by enetering the following commands:
  
-
-     ionadmin
-     v
+    ionadmin
+   
+    v
 
 The console should display the version as ION-OPEN-SOURCE-4.1.1
 
