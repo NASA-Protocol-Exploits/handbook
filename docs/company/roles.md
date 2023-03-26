@@ -1,7 +1,7 @@
 Trimester 1 2023
 
 Company Director:       Luxing Yang <br>
-Project Lead:           Connie Cox
-Stream Lead - Static:   Jesse Ludeman
-Stream Lead - Fuzzing:  Zara Rose Scherger
-Stream Lead - App Dev:  Tristen Clifton
+Project Lead:           Connie Cox<br>
+Stream Lead - Static:   Jesse Ludeman<br>
+Stream Lead - Fuzzing:  Zara Rose Scherger<br>
+Stream Lead - App Dev:  Tristen Clifton<br>
